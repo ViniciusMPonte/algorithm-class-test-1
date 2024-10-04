@@ -28,6 +28,7 @@ public class Increasecode {
                 break;
             default:
                 System.out.println("Código inválido");
+                return;
         }
         System.out.println("Resultado: " + df.format(result));
     }
